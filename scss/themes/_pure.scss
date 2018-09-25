@@ -1,0 +1,48 @@
+// Base Color
+$syntax-hue: 240deg;
+$syntax-saturation: 24%;
+$syntax-brightness: 20%;
+
+// Theme Colors
+$color-base: hsl($syntax-hue, $syntax-saturation, $syntax-brightness);
+$color-highlight: hsl($syntax-hue, $syntax-saturation, 84%);
+$color-red: #ff6b6b;
+$color-green: #8ce99a;
+$color-yellow: #ffe066;
+
+$color-shade-darkest: #171726;
+$color-shade-darker: #2F2F4C;
+$color-shade-dark: #464672;
+$color-shade-mid: #5D5D98;
+$color-shade-light: #8181B1;
+$color-shade-lightest: #A6A6C9;
+
+// Font Colors
+$base-font-color: hsl($syntax-hue, $syntax-saturation, 96%);
+
+$base-link-color: $color-highlight;
+$base-link-color-active: hsl($syntax-hue, $syntax-saturation, 72%);
+
+// Grayscale Colors
+$black: #000;
+$white: #fff;
+
+// Shadow Colors
+$color-shadow-dark: rgba($black, 0.5);
+$color-shadow-medium: rgba($black, 0.25);
+$color-shadow-light: rgba($black, 0.15);
+$color-shadow-transparent: rgba(255, 255, 255, 0);
+
+// Code Colors
+$code-colors: (
+  keyword: #ce93d8, atom: #9fa8da, number: #a5d6a7, def: #536dfe,
+  variable: #9fa8da, variable-alt: #c5e1a5, comment: #ffcc80, string: #ef9a9a,
+  string-alt: #ffab91, meta: #eee, qualifier: #eee, builtin: #b39ddb,
+  bracket: #e6ee9c, tag: #a5d6a7, attribute: #40c4ff, header: #80cbc4,
+  quote: #b0bec5, hr: $color-shade-dark, link: $base-link-color
+);
+
+// Emoji Hover Colors
+$emoji-hover-colors: (
+  0: #b7e887, 1: #b5e0fe, 2: #f9ef67, 3: #f3c1fd, 4: #ffe1ae, 5: #e0dfff
+);
